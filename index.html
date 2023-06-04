@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="container d-flex align-items-center">
+        <div class="d-flex flex-column gap-2">
+            <div>
+                <input type="text" id="inputValue" placeholder="Inserisci un valore">
+                <button onclick="procedi()">Cerca</button>
+              </div>
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+                </a>
+            
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" id="buttonName">Nome</a></li>
+                <li><a class="dropdown-item" href="#" id="buttonUsername">Username</a></li>
+                <li><a class="dropdown-item" href="#" id="buttonEmail">Email</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="vertical-table ms-4 gap-3 justify-content-center align-items-center mt-5">
+          <div class="column" id="rowName">
+            <h4>Name</h4>
+            <ul id="listName">
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Username</h4>
+            <ul id="userName">
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Email</h4>
+            <ul id="email">
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Result</h4>
+            <ul id="Result">
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+    
+    
+    
+    
+    
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
